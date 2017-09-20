@@ -26,4 +26,9 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function articles(){
+        //一对多  一个用户有多篇文章  第二个参数为article的外键 user的主键
+        return $this->hasMany('App\Article');
+    }
 }
