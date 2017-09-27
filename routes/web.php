@@ -11,7 +11,7 @@
 |
 */
 //单个写路由 麻烦
-//Route::get('/','SiteController@index');
+Route::get('/','SiteController@index');
 //Route::get('/article','ArticlesController@index');
 //Route::get('/article/create','ArticlesController@create');
 //Route::get('/article/{id}','ArticlesController@show');
