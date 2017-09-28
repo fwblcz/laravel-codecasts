@@ -1,5 +1,5 @@
 <?php
-\Illuminate\Support\Facades\Auth::loginUsingId(2);
+//\Illuminate\Support\Facades\Auth::loginUsingId(2);
 /*
 |--------------------------------------------------------------------------
 | Web Routes
